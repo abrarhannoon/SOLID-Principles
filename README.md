@@ -21,4 +21,7 @@ Calculator class is open for extension close for modification, operation calcula
 the eagle and Penguin class Breaks This principle  and another like LSP,RSP when implement behaviours which don't need it,so with benefit of the reuse in the inheritance, the behaviours separated in interfaces and the common behaviour "Molt" and attributes collected in parent class bird. 
 ![image](https://user-images.githubusercontent.com/92648528/196530362-20f0a4c0-b86a-4855-8765-3298c7461f83.png)
 
+-Dependency Inversion Principle
 
+High level class Windows machine depend on low level classes Keyboard and Monitor result to break this principle, so  both of them  become depend on Interface as s solution contain the Simler behavior of Keyboard and Monitor.  
+![image](https://user-images.githubusercontent.com/92648528/196536266-a66c12c0-f30e-4a39-b3a1-a753973e7197.png)
