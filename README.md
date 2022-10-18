@@ -14,8 +14,7 @@ Calculator class is open for extension close for modification, operation calcula
 -Liskov Substitution Principle :
 
  the objects of customer class not behaving the same way as the objects of customer in add offer function,so the solution was made more general class they are inheret from it. so that way the general class customer offerable to behave as child classes.
- ![image](https://user-images.githubusercontent.com/92648528/196524026-804d6de8-8b0b-4084-b291-53006bcba15c.png)
- 
+![image](https://user-images.githubusercontent.com/92648528/196537133-a28de284-adfa-41f0-95b3-d30f0382c077.png) 
  -Interface Segregation Principle:
  
 the eagle and Penguin class Breaks This principle  and another like LSP,RSP when implement behaviours which don't need it,so with benefit of the reuse in the inheritance, the behaviours separated in interfaces and the common behaviour "Molt" and attributes collected in parent class bird. 
